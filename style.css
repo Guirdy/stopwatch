@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+#header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5%;
+    background: rgb(230, 230, 230);
+}
+
+#stopwatch button {
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+}
+
+#start {
+    background: rgb(1, 69, 255);
+    color: #fff;
+    transition: filter 0.2s;
+}
+
+#start:hover {
+    filter: brightness(90%);
+}
+
+#pause {
+    background: rgb(211, 198, 22);
+    color: #fff;
+    transition: filter 0.2s;
+}
+
+#pause:hover {
+    filter: brightness(90%);
+}
+
+#reset {
+    background: rgb(255, 72, 0);
+    color: #fff;
+    transition: filter 0.2s;
+}
+
+#reset:hover {
+    filter: brightness(90%);
+}
+
+.time {
+    float: right;
+    font-size: 200px;
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+#controller {
+    display: flex;
+    margin: auto;
+}
+
+@media(max-width: 900px){
+    #stopwatch {
+        display: flex;
+        width: 450px;
+        height: 350px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 5%;
+        background: rgb(230, 230, 230);
+    }
+    #stopwatch button {
+        width: 100px;
+        height: 70px;
+        justify-content: center;
+    }
+    .btn {
+        border: none;
+        cursor: pointer;
+        margin: 2px;
+        padding: 10px;
+        font-size: 11pt;
+    }
+    .time {
+        float: right;
+        font-size: 100px;
+    }
+}
