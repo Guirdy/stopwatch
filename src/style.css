@@ -49,6 +49,7 @@ body {
 }
 
 #pause {
+    display: none;
     background: rgb(211, 198, 22);
     color: #fff;
     transition: filter 0.2s;
