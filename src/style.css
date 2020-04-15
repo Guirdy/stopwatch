@@ -88,11 +88,11 @@ body {
     margin: auto;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1080px){
     #stopwatch {
         display: flex;
-        width: 450px;
-        height: 350px;
+        width: 82%;
+        height: 400px;
         margin: auto;
         margin-top: 30px;
         border-radius: 5%;
