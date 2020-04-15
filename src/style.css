@@ -98,6 +98,9 @@ body {
         border-radius: 5%;
         background: rgb(230, 230, 230);
     }
+    #stopwatch h1 {
+        font-size: 55px;
+    }
     #stopwatch button {
         width: 100px;
         height: 70px;
